@@ -1,0 +1,65 @@
+body{
+background-image:url(BC/bc);
+background-size:cover;
+transition-duration:5s;
+}
+body:hover{
+background-image:url(bk/bk.jpg);
+}
+.logo img{
+width:;
+height:50px;
+float:left;
+}
+
+
+.main-menu ul{
+float:left;
+list-style:none;
+overflow:hidden;
+}
+
+.main-menu ul li{
+float:left;
+position:relative;
+}
+
+.main-menu ul li a{
+font-size:25px;
+text-decoration:none;
+padding:15px 65px;
+display:block;
+}
+
+.main-menu ul li a:hover{
+background:red;
+}
+/* drop down menu design */
+
+.main-menu ul ul li{
+ float:none;
+}
+
+
+        /* Codded by MEHEDI */
+                .main-menu ul li ul {
+                    display: none;
+                }
+
+                .main-menu ul li:hover ul {
+                    display: block;
+                }
+        /* Codded by MEHEDI */
+
+
+.main-menu ul ul{
+position:absolite;
+top:100%;
+left:0%;
+display:;
+}
+.main-menu ul li :hover ul{
+display:block;
+}
+
+
